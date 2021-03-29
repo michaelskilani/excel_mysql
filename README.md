@@ -1,4 +1,4 @@
-# excel_mysql
+# Excel - Mysql Pipeline
 
 ## Description
 This application parses an Excel .xls file, and pipes the data into a persistent MySQL Database. 

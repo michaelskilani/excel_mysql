@@ -97,12 +97,15 @@ def get_employee_data_from_xlsx(file_path):
 
 if __name__ == '__main__':
 
+    # Create Python connection to MySQL Database
     cnx = mysql.connector.connect(**config.CONFIG)
     cursor = cnx.cursor()
 
+    # Create / initialize databases and tables
     create_database(cursor)
     create_tables(cursor)
 
+    # Insert Employee data into the Employee table
     employee_data = get_employee_data_from_xlsx(DATA_PATH)
     create_employees(cursor, employee_data)
 
