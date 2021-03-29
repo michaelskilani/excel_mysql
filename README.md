@@ -13,5 +13,4 @@ On execution, Employees Table in MySQL is create, and Employee data is inserted 
 ## Screenshots
 [Excel Data](https://user-images.githubusercontent.com/75641542/112783536-8a14c380-901d-11eb-8a19-fdaad34be5fc.png)
 
-*DBeaver Data Studio*
 [DBeaver Data Studio](https://user-images.githubusercontent.com/75641542/112783559-96008580-901d-11eb-9855-6570b41f13aa.png)
