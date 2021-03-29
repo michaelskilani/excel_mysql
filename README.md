@@ -2,7 +2,7 @@
 
 ## Description
 This application parses an Excel .xls file, and pipes the data into a persistent MySQL Database. 
-Excel file defines an Employees table with example columns and data columns. 
+Excel file defines an Employees table with example columns and data. 
 On execution, Employees Table in MySQL is create, and Employee data is inserted into the table.
 
 ## Screenshots
